@@ -9,17 +9,17 @@ function Body() {
             Leadeur business est une plateforme en ligne pour la vente  des Canapes et certains fourniture </p>
         </div>
         <div className="shadow-xl my-4 md:my-0 lg:mx-2 w-full">
-            <img src="/a3.jpg" alt="" className="h-[30vh] md:w-[60vw] w-full"/>
+            <img src="/leardeur-business/a3.jpg" alt="" className="h-[30vh] md:w-[60vw] w-full"/>
     <h2 className="text-xl font-bold my-2 px-1">Canaper italien couleur gray</h2>
     <p className="px-1 pb-10 font-bold">prix: 200000FCFa</p>
         </div>
         <div className="shadow-xl my-4 md:my-0 lg:mx-2 w-full">
-            <img src="/a7.png" alt="" className="h-[30vh] md:w-[60vw]"/>
+            <img src="/leardeur-business/a7.png" alt="" className="h-[30vh] md:w-[60vw]"/>
  <h2 className="text-xl font-bold my-2 px-1">Canaper italien couleur gray</h2>
     <p className="px-1 pb-10 font-bold">prix: 200000FCFa</p>
         </div>
         <div className="shadow-xl my-4 md:my-0 lg:mx-2 w-full">
-            <img src="/a5.png" alt="" className="h-[30vh] md:w-[60vw] w-full"/>
+            <img src="/leardeur-business/a5.png" alt="" className="h-[30vh] md:w-[60vw] w-full"/>
             <h2 className="text-xl font-bold my-2 px-1">Canaper italien couleur gray</h2>
     <p className="px-1 pb-10 font-bold">prix: 200000FCFa</p>
         </div>
