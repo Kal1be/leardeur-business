@@ -1,0 +1,60 @@
+.wrapper{
+    background-image: url("/beautiful1.jpg");
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    object-fit: contain;
+    // overflow-x: hidden;
+    // position: absolute;
+    h2{
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    ul{
+        li{
+            font-family:'Times New Roman', Times, serif;
+        }
+    }
+    
+   
+}
+@media(min-width:756px){
+    .fabar{
+        display: none;
+    }
+}
+
+@media(max-width:756px){
+.wrapper{
+    width: 100% !important;
+    height: 60vh;
+}
+#open{
+    display: none;
+}
+.fabar{
+    display: block;
+    div:nth-child(1) {
+        width: 27px;
+        height: 4px;
+        background-color: white;
+        margin: 4px 0;
+      }
+      div:nth-child(2) {
+        width: 20px;
+        height: 4px;
+        background-color: white;
+        margin: 4px 6.3px;
+      }
+      div:nth-child(3) {
+        width: 15px;
+        height: 4px;
+        background-color: white;
+        margin: 4px 11px;
+      }
+}
+}
+ 
