@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    // height: 100vh;
     margin: 0;
     object-fit: contain;
     // overflow-x: hidden;
@@ -18,6 +18,10 @@
             font-family:'Times New Roman', Times, serif;
         }
     }
+
+    .wrap{
+        background: #00000059;
+    }
     
    
 }
@@ -30,7 +34,7 @@
 @media(max-width:756px){
 .wrapper{
     width: 100% !important;
-    height: 60vh;
+    // height: 55vh;
 }
 #open{
     display: none;
@@ -39,21 +43,21 @@
     display: block;
     div:nth-child(1) {
         width: 27px;
-        height: 4px;
+        height: 2px;
         background-color: white;
-        margin: 4px 0;
+        margin: 6px 1px;
       }
       div:nth-child(2) {
         width: 20px;
-        height: 4px;
+        height: 2px;
         background-color: white;
-        margin: 4px 6.3px;
+        margin: 6px 7px;
       }
       div:nth-child(3) {
         width: 15px;
-        height: 4px;
+        height: 2px;
         background-color: white;
-        margin: 4px 11px;
+        margin: 6px 12px;
       }
 }
 }

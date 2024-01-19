@@ -3,7 +3,8 @@ import "./navbar.scss"
 function Navbar() {
   return (
    <div className="wrapper">
-     <div className="flex justify-between items-center md:py-8 py-4 px-2 md:px-12">
+    <div className="wrap">
+    <div className="flex justify-between items-center md:py-8 py-4 px-2 md:px-12">
         <div>
             <h2 className="font-bold md:text-3xl text-2xl text-white">Leader Business</h2>
         </div>
@@ -24,11 +25,12 @@ function Navbar() {
         </div>
       </div>
     </div>
-    <div className="lg:px-12  lg:pt-28 pt-24 text-white lg:w-[70%] text-4xl w-[88%] p-2">
-        <h2 className="font-medium" id="open">Rejoignez leadeur business pour tout vos differents orientations</h2>
+    <div className="lg:px-12  lg:pt-32 lg:pb-36 pt-16 pb-24 text-gray-200 shadow-2xl lg:w-[70%] text-4xl w-[88%] p-2">
+        <h2 className="font-medium" id="open">Rejoignez leadeur business pour tout vos differents orientations et besoin.</h2>
         <h2 className="lg:text-7xl font-bold">
-            Trouvez les furnitures que tout le monde aime.
+            Trouvez les fournitures que tout le monde aime.
         </h2>
+    </div>
     </div>
    </div>
   )
