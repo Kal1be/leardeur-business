@@ -6,7 +6,7 @@ function Navbar() {
     <div className="wrap">
     <div className="flex justify-between items-center md:py-8 py-4 px-2 md:px-12">
         <div>
-            <h2 className="font-bold md:text-3xl text-2xl text-white">Leader Business</h2>
+            <h2 className="font-bold md:text-4xl text-3xl text-white" id="title">Leader Business</h2>
         </div>
       <div>
         <ul className="md:flex lg:w-[700px] justify-between items-center text-xl text-white " id="open">
@@ -25,7 +25,7 @@ function Navbar() {
         </div>
       </div>
     </div>
-    <div className="lg:px-12  lg:pt-32 lg:pb-36 pt-16 pb-24 text-gray-200 shadow-2xl lg:w-[70%] text-4xl w-[88%] p-2">
+    <div className="lg:px-12  lg:pt-32 lg:pb-36 pt-16 pb-24 text-gray-200 shadow-2xl lg:w-[70%] text-4xl w-[88%] p-2" id="epic">
         <h2 className="font-medium" id="open">Rejoignez leadeur business pour tout vos differents orientations et besoin.</h2>
         <h2 className="lg:text-7xl font-bold">
             Trouvez les fournitures que tout le monde aime.
