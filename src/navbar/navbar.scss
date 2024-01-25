@@ -12,7 +12,7 @@
     // overflow-x: hidden;
     // position: absolute;
     #title{
-        font-family:"Edu TAS Beginner",sans-serif;
+        font-family:"Hedvig Letters Serif",sans-serif;
     }
 
     ul{
@@ -22,7 +22,7 @@
     }
 
     .wrap{
-        background:linear-gradient(rgba(0, 0, 0, 0.826),rgba(0, 0, 0, 0.242)) ;
+        background:linear-gradient(rgba(0, 0, 0, 0.941),rgba(0, 0, 0, 0.242)) ;
     }
 
     #epic{
@@ -44,28 +44,56 @@
     width: 100% !important;
     // height: 55vh;
 }
-#open{
+#opened{
     display: none;
+}
+#open{
+    position:fixed;
+    left:0;
+    height: 100vh;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 0;
+    top: 0;
+    transition: 2s linear;
+}
+
+#open{
+    li{
+        margin: 10px 0;
+        padding: 10px 0;
+        font-size: 25px;
+        border-bottom: 1px solid white;
+    }
+}
+#close{
+    display: none;
+    transition: 2s linear;
+
 }
 .fabar{
     display: block;
+    // background-color: rgba(0, 0, 255, 0.219);
+    // padding: 4px 3px;
     div:nth-child(1) {
         width: 27px;
         height: 3px;
         background-color: white;
-        margin: 6px 1px;
+        margin: 5px 1px;
       }
       div:nth-child(2) {
         width: 20px;
         height: 3px;
         background-color: white;
-        margin: 6px 7px;
+        margin: 5px 7.27px;
       }
       div:nth-child(3) {
         width: 15px;
         height: 3px;
         background-color: white;
-        margin: 6px 11.2px;
+        margin: 5px 11.9px;
       }
 }
 }
