@@ -1,0 +1,8 @@
+#test{
+    scale: 1;
+    transition: 2s linear;
+}
+#test:hover{
+    display: none;
+    scale: 0;
+}

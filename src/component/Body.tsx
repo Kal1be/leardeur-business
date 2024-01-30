@@ -2,11 +2,11 @@
 
 function Body() {
   return (
-    <div className="lg:flex items-center md:px-8 px-4 md:pt-16 pt-10">
+    <div className="lg:flex items-center md:px-8 px-2 md:pt-16 pt-10">
         <div className="md:w-[60%] pe-3">
             <button className="border w-full p-2 rounded-full my-1 font-bold bg-slate-700 text-white">Acheter maintenant</button>
             <button className="border w-full p-2 rounded-full my-1 font-bold bg-sky-500 text-white">Voir plus..</button>
-            <h2 className="text-4xl font-bold pt-2 text-gray-600 ">Who we are</h2>
+            <h2 className="text-4xl font-bold pt-2 text-gray-600 ">Qui somme nous ?</h2>
             <p className="font-medium">Leadeur business est une plateforme en ligne pour la vente des Canapes et certains fourniture de vos maison.
            Choississez Leadeur business c'est choisir l'accesoire .</p>
         </div>

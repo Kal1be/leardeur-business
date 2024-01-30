@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import "./author.scss"
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -24,10 +25,10 @@ function Author() {
   return (
    <div className="lg:mx-14 mx-4 my-6 ">
     <h2 className="lg:text-6xl text-2xl font-bold my-4">Ce que nos disent a <br />propos de nous</h2>
-     <div className=" shadow-2xl">
+     <div className="togue">
         <Carousel responsive={responsive}
-         swipeable={false}
-         draggable={false}
+         swipeable={true}
+         draggable={true}
          showDots={false}
         //  responsive={responsive}
          ssr={true} // means to render carousel on server-side.
@@ -35,8 +36,8 @@ function Author() {
         //  autoPlay={this.props.deviceType !== "mobile" ? true : false}
          autoPlaySpeed={1000}
          keyBoardControl={true}
-        //  customTransition="all .5"
-        //  transitionDuration={500}
+         customTransition="all .5"
+         transitionDuration={500}
          containerClass="carousel-container"
          removeArrowOnDeviceType={["tablet", "mobile"]}
         //  deviceType={this.props.deviceType}

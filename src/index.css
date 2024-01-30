@@ -7,3 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+head{
+  background-color:black;
+}
+meta{
+  background-color:black;
+}
