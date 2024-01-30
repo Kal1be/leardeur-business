@@ -78,7 +78,7 @@
     left:0;
     height: 100vh;
     background-color: black;
-    z-index: 1;
+    z-index: 100;
     width: 100%;
     padding: 10px 20px;
     margin: 0 0;
@@ -91,18 +91,18 @@
 #open{
     li{
        
-        padding: 10px 0;
+        padding: 15px 0;
         font-size: 25px;
        
     }
     li:nth-child(1){
-       margin-top: 20px;
+       margin-top: 40px;
        margin-bottom: 10px;
         border-bottom: 1px solid white;
     }
     li:nth-child(2){
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 15px;
         border-bottom: 1px solid white;
     }
     li:nth-child(3){
@@ -110,7 +110,7 @@
         border-bottom: 1px solid white;
     }
     li:nth-child(4){
-        margin: 10px 0;
+        margin: 15px 0;
         border-bottom: 1px solid white;
     }
     li:nth-child(5){
@@ -122,9 +122,8 @@
         border-bottom: 1px solid white;
     }
     li:nth-child(7){
-       margin-top: 10px;
-        border-bottom: 1px solid white;
-        margin-bottom: 15px;
+       margin-top: 25px;
+        margin-bottom: 30px;
 
     }
 }
@@ -132,7 +131,8 @@
     position: absolute;
     left: -100%;
     opacity: .1;
-    scale: .1;
+    scale: 0;
+    // transition: .1s ease-in;
 
 }
 .fabar{
@@ -149,13 +149,13 @@
         width: 20px;
         height: 3px;
         background-color: white;
-        margin: 5px 7.27px;
+        margin: 5px 7.282px;
       }
       div:nth-child(3) {
         width: 15px;
         height: 3px;
         background-color: white;
-        margin: 5px 11.9px;
+        margin: 5px 11.98px;
       }
 }
 #nav{

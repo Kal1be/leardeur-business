@@ -1,5 +1,5 @@
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faStar,faHeart} from "@fortawesome/free-solid-svg-icons"
 import "./body.scss"
@@ -24,15 +24,15 @@ function Body1() {
   return (
     <div>
         <div className="my-4 flex justify-center">
-            <h2 className="lg:px-12 py-3 px-4 text-center border bg-gray-200 text-2xl font-medium inline-block">
-               Voir les pepites
+            <h2 className="lg:px-12 py-3 my-6 px-4 text-center border bg-gray-200 text-2xl font-medium inline-block">
+               Voir les nouvelles canapes
                 </h2>
         </div>
         <div className="lg:flex lg:px-12 px-2 ">
        
-        <div className="relative  md:h-[53vh] h-[48vh] border my-4 md:my-0 lg:mx-2 w-full">
+        <div className="relative  md:h-[53vh] h-[50vh] border my-4 md:my-0 lg:mx-2 w-full">
           <div className="relative">
-          <img src="/leardeur-business/b11.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
+          <img src="/leardeur-business/b6.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="tested"/>
           <img src="/leardeur-business/a4.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
           </div>
            <div className="absolute top-4 flex justify-between items-center px-2 w-full">
@@ -44,17 +44,17 @@ function Body1() {
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
            <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
         </div>
         {/* ++++++++++++++++ the second one */}
-        <div className=" md:h-[53vh] h-[48vh] border relative  my-4 md:my-0 lg:mx-2 w-full">
+        <div className=" md:h-[53vh] h-[50vh] border relative  my-4 md:my-0 lg:mx-2 w-full">
         <div className="relative">
           <img src="/leardeur-business/b5.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
           <img src="/leardeur-business/a7.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
@@ -65,19 +65,19 @@ function Body1() {
            </div>
            <div className="bottom-4 absolute">
            <h2 className="text-black text-xl font-bold mx-2">Leader Business</h2>
-           <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
-           <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
+           <p className="font-medium mx-2">Talope - canape d'angle reversible avec tetiere</p>
+           <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">6500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 8500000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
         </div>
-        <div className=" md:h-[53vh] h-[48vh] border relative my-4 md:my-0 lg:mx-2 w-full">
+        <div className=" md:h-[53vh] h-[50vh] border relative my-4 md:my-0 lg:mx-2 w-full">
         <div>
           <img src="/leardeur-business/b10.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
           <img src="/leardeur-business/a8.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
@@ -89,21 +89,21 @@ function Body1() {
            <div className="bottom-4 absolute">
            <h2 className="text-black text-xl font-bold mx-2">Leader Business</h2>
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
-           <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
+           <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">800000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 900000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
         </div>
-        <div className="md:h-[53vh] h-[48vh] border relative my-4 md:my-0 lg:mx-2 w-full">
+        <div className="md:h-[53vh] h-[50vh] border relative my-4 md:my-0 lg:mx-2 w-full">
         <div>
-          <img src="/leardeur-business/b10.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
-          <img src="/leardeur-business/a8.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
+          <img src="/leardeur-business/b4.webp" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
+          <img src="/leardeur-business/a16.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
           </div>
             <div className="absolute top-4 flex justify-between items-center px-2 w-full">
             <h3 className="bg-black font-bold text-white px-3 py-2 rounded-full">Promo-10%</h3>
@@ -114,11 +114,11 @@ function Body1() {
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
            <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
@@ -128,10 +128,10 @@ function Body1() {
         </div>
         {/* ==========________++++++++++++ the second element of the ++++++++++++++++++++++++++++++++ */}
         <div className="lg:flex lg:px-12 px-4 pt-6">
-        <div className="relative  md:h-[53vh] h-[48vh] border my-4 md:my-0 lg:mx-2 w-full">
+        <div className="relative  md:h-[53vh] h-[50vh] border my-4 md:my-0 lg:mx-2 w-full">
           <div className="relative">
-          <img src="/leardeur-business/b11.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
-          <img src="/leardeur-business/a4.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
+          <img src="/leardeur-business/b12.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
+          <img src="/leardeur-business/a12.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
           </div>
            <div className="absolute top-4 flex justify-between items-center px-2 w-full">
             <h3 className="bg-black font-bold text-white px-3 py-2 rounded-full">Promo-10%</h3>
@@ -142,20 +142,20 @@ function Body1() {
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
            <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
         </div>
         {/* ++++++++++++++++ the second one */}
-        <div className=" md:h-[53vh] h-[48vh] border relative  my-4 md:my-0 lg:mx-2 w-full">
+        <div className=" md:h-[53vh] h-[50vh] border relative  my-4 md:my-0 lg:mx-2 w-full">
         <div className="relative">
-          <img src="/leardeur-business/b5.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
-          <img src="/leardeur-business/a7.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
+          <img src="/leardeur-business/b13.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
+          <img src="/leardeur-business/a13.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
           </div>
           <div className="absolute top-4 flex justify-between items-center px-2 w-full">
             <h3 className="bg-black font-bold text-white px-3 py-2 rounded-full">Promo-10%</h3>
@@ -166,19 +166,19 @@ function Body1() {
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
            <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
         </div>
-        <div className=" md:h-[53vh] h-[48vh] border relative my-4 md:my-0 lg:mx-2 w-full">
+        <div className=" md:h-[53vh] h-[50vh] border relative my-4 md:my-0 lg:mx-2 w-full">
         <div>
-          <img src="/leardeur-business/b10.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
-          <img src="/leardeur-business/a8.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
+          <img src="/leardeur-business/b14.webp" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
+          <img src="/leardeur-business/a14.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
           </div>
           <div className="absolute top-4 flex justify-between items-center px-2 w-full">
             <h3 className="bg-black font-bold text-white px-3 py-2 rounded-full">Promo-10%</h3>
@@ -189,19 +189,19 @@ function Body1() {
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
            <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>
         </div>
-        <div className="md:h-[53vh] h-[48vh] border relative my-4 md:my-0 lg:mx-2 w-full">
+        <div className="md:h-[53vh] h-[50vh] border relative my-4 md:my-0 lg:mx-2 w-full">
         <div>
-          <img src="/leardeur-business/b10.jpeg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
-          <img src="/leardeur-business/a8.png" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
+          <img src="/leardeur-business/b9.webp" alt="" className="h-[30vh] w-full md:w-[60vw] absolute"/>
+          <img src="/leardeur-business/a17.jpg" alt="" className="h-[30vh] w-full md:w-[60vw] absolute" id="test"/>
           </div>
             <div className="absolute top-4 flex justify-between items-center px-2 w-full">
             <h3 className="bg-black font-bold text-white px-3 py-2 rounded-full">Promo-10%</h3>
@@ -210,13 +210,13 @@ function Body1() {
            <div className="bottom-4 absolute">
            <h2 className="text-black text-xl font-bold mx-2">Leader Business</h2>
            <p className="font-medium mx-2">Celosia - canape d'angle reversible avec tetiere</p>
-           <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">500000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 600000fcfa</h2></h3>
+           <h3 className="flex"><h2 className="text-red-400 font-bold mx-2">900000fcfa </h2><h2 className="line-through font-bold mx-2 text-gray-400"> 1400000fcfa</h2></h3>
           <div className="text-sm mx-2">
-          <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
-           <FontAwesomeIcon icon={faStar} className="text-yellow-400"/>
+          <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
+           <FontAwesomeIcon icon={faStar} className="text-orange-400"/>
            <span> 1 avis</span>
           </div>
            </div>

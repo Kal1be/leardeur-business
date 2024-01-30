@@ -4,7 +4,7 @@ import './footer.css'
 import { faCouch } from "@fortawesome/free-solid-svg-icons"
 function Footer() {
   return (
-    <div className="bg-slate-800 lg:px-12 px-4 mt-10  text-gray-300 py-4">
+    <div className="bg-slate-900 lg:px-12 px-4 mt-10  text-gray-300 py-4">
         <div className="md:flex justify-between">
         <div className="my-2">
             <h2 className="font-bold text-2xl md:text-3xl text-slate-200 my-1" id="title"><FontAwesomeIcon icon={faCouch} className="me-2"/>Leadeur Business</h2>
@@ -43,7 +43,7 @@ function Footer() {
         </div>
         <div className="flex items-center  my-4">
           <h2 className="text-2xl font-bold">Suivez nous sur:</h2>
-          <div className="w-32 flex justify-between ms-4 text-xl text-sky-200">
+          <div className="w-32 flex justify-between ms-4 text-xl text-gray-300">
             <FontAwesomeIcon icon={faFacebook}/>
             <FontAwesomeIcon icon={faXTwitter}/>
             <FontAwesomeIcon icon={faInstagram}/>

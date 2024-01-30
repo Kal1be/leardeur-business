@@ -24,41 +24,95 @@ const responsive = {
 function Author() {
   return (
    <div className="lg:mx-14 mx-4 my-6 ">
-    <h2 className="lg:text-6xl text-2xl font-bold my-4">Ce que nos disent a <br />propos de nous</h2>
+  <div className=" justify-center">
+  <h2 className="lg:text-4xl text-3xl font-bold inline-block text-gray-900">Ce que nos clients disent a <br />propos de nous</h2>
+  </div>
+  <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perferendis voluptatem cumque 
+    suscipit voluptas nemo delectus praesentium quo provident porro? Reprehenderit
+     nihil consectetur officiis nisi mollitia modi voluptatum. Quis explicabo nemo 
+     optio incidunt animi esse maiores quo quasi rerum voluptate.</p>
      <div className="togue">
         <Carousel responsive={responsive}
          swipeable={true}
          draggable={true}
-         showDots={false}
+         showDots={true}
         //  responsive={responsive}
          ssr={true} // means to render carousel on server-side.
          infinite={true}
         //  autoPlay={this.props.deviceType !== "mobile" ? true : false}
-         autoPlaySpeed={1000}
+        //  autoPlaySpeed={1000}
          keyBoardControl={true}
-         customTransition="all .5"
-         transitionDuration={500}
+        //  customTransition="all .5"
+        //  transitionDuration={500}
          containerClass="carousel-container"
          removeArrowOnDeviceType={["tablet", "mobile"]}
         //  deviceType={this.props.deviceType}
          dotListClass="custom-dot-list-style"
          itemClass="carousel-item-padding-40-px">
-        <div className="lg:px-12 py-8">
-        <img src="/leardeur-business/togui.jpg" alt="" className="w-36 rounded-full h-36"/>
-        kalibe
+        <div className="lg:px-28 md:py-8 py-3 md:flex items-center">
+       <div className="md:flex justify-center">
+       <img src="/leardeur-business/togui.jpg" alt="" className="w-40 rounded-full h-40 mx-6 md:mx-0"/>
+       </div>
+     <div className="md:w-[640px] md:mx-4">
+     <h2 className="text-xl font-bold md:text-left mx-6 md:mx-0">Dingamnodji Etienne</h2>
+    <div className="flex">
+    <span className="md:text-6xl text-2xl mx-2">``</span>
+    <p className="text-lg font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo laudantium quo repellat 
+      consectetur iste. Sapiente odio reiciendis at autem aspernatur, 
+      unde optio temporibus error quam a labore adipisci quidem facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Iste eveniet autem ipsum!</p>
+    </div>
+    
+     </div>
         </div>  
-        <div className="lg:px-12 py-8">
-        <img src="/leardeur-business/togui.jpg" alt="" className="w-36 rounded-full h-36"/>
-        <p>je suis le developpeur</p>
+        <div className="lg:px-28 md:py-8 py-3 md:flex items-center">
+       <div className="md:flex justify-center">
+       <img src="/leardeur-business/people3.png" alt="" className="w-40 rounded-full h-40 mx-6 md:mx-0"/>
+       </div>
+     <div className="md:w-[640px] md:mx-4">
+     <h2 className="text-xl font-bold md:text-left mx-6 md:mx-0">Orimadji Adele</h2>
+    <div className="flex">
+    <span className="md:text-6xl text-2xl mx-2">``</span>
+    <p className="text-lg font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo laudantium quo repellat 
+      consectetur iste. Sapiente odio reiciendis at autem aspernatur, 
+      unde optio temporibus error quam a labore adipisci quidem facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Iste eveniet autem ipsum!</p>
+    </div>
+    
+     </div>
         </div>  
-        <div className="lg:px-12 py-8">
-        <img src="/leardeur-business/togui.jpg" alt="" className="w-36 rounded-full h-36"/>
-        <p>je suis le developpeur</p>
+        <div className="lg:px-28 md:py-8 py-3 md:flex items-center">
+       <div className="md:flex justify-center">
+       <img src="/leardeur-business/people2.jpg" alt="" className="w-40 rounded-full h-40 mx-6 md:mx-0"/>
+       </div>
+     <div className="md:w-[640px] md:mx-4">
+     <h2 className="text-xl font-bold md:text-left mx-6 md:mx-0">Mandedene Rose</h2>
+    <div className="flex">
+    <span className="md:text-6xl text-2xl mx-2">``</span>
+    <p className="text-lg font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo laudantium quo repellat 
+      consectetur iste. Sapiente odio reiciendis at autem aspernatur, 
+      unde optio temporibus error quam a labore adipisci quidem facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Iste eveniet autem ipsum!</p>
+    </div>
+    
+     </div>
         </div>  
-        <div className="lg:px-12 py-8">
-        <p>je suis le developpeur</p>
-        <img src="/leardeur-business/togui.jpg" alt="" className="w-36 rounded-full h-36"/>
-        </div>  
+        <div className="lg:px-28 md:py-8 py-3 md:flex items-center">
+       <div className="md:flex justify-center">
+       <img src="/leardeur-business/people1.jpeg" alt="" className="w-40 rounded-full h-40 mx-6 md:mx-0"/>
+       </div>
+     <div className="md:w-[640px] md:mx-4">
+     <h2 className="text-xl font-bold md:text-left mx-6 md:mx-0">Kalibe Felix</h2>
+    <div className="flex">
+    <span className="md:text-6xl text-2xl mx-2">``</span>
+    <p className="text-lg font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo laudantium quo repellat 
+      consectetur iste. Sapiente odio reiciendis at autem aspernatur, 
+      unde optio temporibus error quam a labore adipisci quidem facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Iste eveniet autem ipsum!</p>
+    </div>
+    
+     </div>
+        </div>   
 </Carousel>
     
       

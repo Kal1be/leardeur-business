@@ -1,8 +1,12 @@
 #test{
-    scale: 1;
-    transition: 2s linear;
+    animation-duration: 30s ease-in;
+    transition: 20s linear;
+    display: flex;
 }
 #test:hover{
     display: none;
-    scale: 0;
+    transition: 40s linear !important;
+}
+#tested:hover{
+  transition: 50s linear;
 }
