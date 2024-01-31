@@ -25,12 +25,11 @@ function Author() {
   return (
    <div className="lg:mx-14 mx-4 my-6 ">
   <div className=" justify-center">
-  <h2 className="lg:text-4xl text-3xl font-bold inline-block text-gray-900">Ce que nos clients disent a <br />propos de nous</h2>
+  <h2 className="lg:text-4xl text-2xl font-bold inline-block text-gray-900">Ce que nos clients disent a <br />propos de nous</h2>
   </div>
   <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perferendis voluptatem cumque 
     suscipit voluptas nemo delectus praesentium quo provident porro? Reprehenderit
-     nihil consectetur officiis nisi mollitia modi voluptatum. Quis explicabo nemo 
-     optio incidunt animi esse maiores quo quasi rerum voluptate.</p>
+   </p>
      <div className="togue">
         <Carousel responsive={responsive}
          swipeable={true}

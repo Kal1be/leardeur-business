@@ -38,7 +38,7 @@ return()=>{
         </div>
       <div>
         <ul className="md:flex lg:w-[700px]  z-50 justify-between items-center text-xl text-gray-300" id={open?"open":"close" }>
-          <FontAwesomeIcon icon={faClose} className="fabar absolute right-5 text-2xl bg-white p-2 text-slate-800" onClick={()=>{
+          <FontAwesomeIcon icon={faClose} className="fabar absolute right-5 text-2xl bg-white px-2 py-1 text-slate-800" onClick={()=>{
             setOpen(!open)
           }}/>
             <li>Home</li>

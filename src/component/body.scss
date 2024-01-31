@@ -1,12 +1,33 @@
-#test{
-    animation-duration: 30s ease-in;
-    transition: 20s linear;
-    display: flex;
+@media (max-width:768px) {
+    #test{
+        animation-duration: 30s ease-in;
+        transition: 20s linear;
+        display: flex;
+    }
+    #test{
+        display: none;
+        transition: 40s linear !important;
+        visibility: hidden;
+        // scale: 0;
+    }
+    #tested:hover{
+      transition: 50s linear;
+    }
 }
-#test:hover{
-    display: none;
-    transition: 40s linear !important;
-}
-#tested:hover{
-  transition: 50s linear;
+
+@media (min-width:768px){
+    #test{
+        animation-duration: 30s ease-in;
+        transition: 20s linear;
+        display: flex;
+    }
+    #test:hover{
+        display: none;
+        transition: 40s linear !important;
+        visibility: hidden;
+        // scale: 0;
+    }
+    #tested:hover{
+      transition: 50s linear;
+    }
 }
